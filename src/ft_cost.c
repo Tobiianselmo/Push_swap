@@ -6,7 +6,7 @@
 /*   By: tanselmo <tanselmo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 11:29:03 by tanselmo          #+#    #+#             */
-/*   Updated: 2024/03/22 16:00:28 by tanselmo         ###   ########.fr       */
+/*   Updated: 2024/04/01 12:24:07 by tanselmo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,26 +81,3 @@ int	ft_absolute(int a, int b)
 		len = len + b;
 	return (len);
 }
-
-/* int	ft_absolute_b(int a, int b)
-{
-	int len;
-
-	len = 0;
-	if (a < 0 && b < 0)
-	{
-		len = a;
-		if (b < a)
-			len = b;
-	}
-	else if (a > 0 && b > 0)
-	{
-		len = a;
-		if (b > a)
-			len = b;
-	}
-	else
-		len = ft_absolute(a, b);
-	return (len);
-}
- */

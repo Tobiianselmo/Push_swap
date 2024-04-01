@@ -6,7 +6,7 @@
 /*   By: tanselmo <tanselmo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 11:49:24 by tanselmo          #+#    #+#             */
-/*   Updated: 2024/03/27 11:54:28 by tanselmo         ###   ########.fr       */
+/*   Updated: 2024/04/01 12:22:24 by tanselmo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,6 @@ typedef struct s_node
 	int				cost_b;
 	struct s_node	*next;
 }		t_node;
-//---------------------BORRAR-------------------------//
-void	print_list(t_node *stack_a); //print de prueba (BORRAR)
-void	print_stacks(t_node **stack_a, t_node **stack_b); // (BORRAR)
 //----------------------ERROR-------------------------//
 void	ft_error(t_node **stack_a, t_node **stack_b);
 void	print_error(void);
@@ -99,7 +96,6 @@ int		ft_absolute(int start, int end);
 int		ft_absolute_b(int start, int end);
 //---------------------FREE-------------------------//
 char	*free_str(char *str);
-void	free_array(int *array);
 void	free_matrix(char **matrix);
 void	free_stack(t_node **stack);
 void	ft_free_and_error(int *res);

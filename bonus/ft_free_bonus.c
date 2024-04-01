@@ -6,7 +6,7 @@
 /*   By: tanselmo <tanselmo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 14:14:02 by tanselmo          #+#    #+#             */
-/*   Updated: 2024/03/27 17:40:37 by tanselmo         ###   ########.fr       */
+/*   Updated: 2024/04/01 12:22:34 by tanselmo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,6 @@ void	free_stack(t_node **stack)
 	}
 	*stack = NULL;
 	free(stack);
-}
-
-void	free_array(int *array)
-{
-	free(array);
-	array = NULL;
 }
 
 char	*free_str(char *str)
